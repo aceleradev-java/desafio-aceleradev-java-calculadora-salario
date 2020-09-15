@@ -1,5 +1,31 @@
 # Calculadora de Salário Líquido
 
+<p>
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/aceleradev-java/desafio-aceleradev-java-calculadora-salario">
+    <a href="https://github.com/aceleradev-java/desafio-aceleradev-java-calculadora-salario">
+        <img alt="Made by" src="https://img.shields.io/badge/made%20by-adriano%20avelino-gree">
+    </a>
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/aceleradev-java/desafio-aceleradev-java-calculadora-salario">
+    <a href="https://github.com/EliasGcf/readme-template/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aceleradev-java/desafio-aceleradev-java-calculadora-salario">
+    </a>
+</p>
+
+O Aceleradev é um treinamento da Codenation com duração de 10 semanas de imersão em programação, no meu caso, Java online. Esse é o desafio do primeiro módulo que tem como conteúdo:
+
+- Pacotes e classes
+- Operadores Aritméticos
+- Veriáveis e métodos
+    - Tipos Primitivos
+    - Objetos
+    - Construtores
+    - Modificadores de Acesso
+- Arrays e ArrayLists
+- Controles de Fluxos
+    - Estruturas Condicionais e de Repetição
+    - Operadores Lógicos
+
+## Desafio (Calculadora de Salário Líquido)
 No Brasil, as pessoas que trabalham "com carteira assinada" (CLT) têm uma parte do seu *salário bruto (isto é, o salário integral, sem descontos)* retida pela empresa empregadora para o pagamento de alguns tributos, como, por exemplo, a Previdência Social (INSS) e o Imposto de Renda Retido na Fonte (IRRF). Após esse desconto, o valor que a pessoa contratada recebe é denominado **salário líquido**.
 
 Neste desafio, vamos implementar um algoritmo que será responsável por receber como parâmetro o salário bruto e retornar o salário líquido, já com todos os descontos de INSS e IRRF. Esse algoritmo deve ser implementado na classe **CalculadoraSalario** no método **calcularSalarioLiquido**, esse método deve receber um valor do tipo **double** e retornar um valor do tipo **int** (**Utilize o método Math.round() para arredondar o resultado final**).
